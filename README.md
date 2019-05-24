@@ -1,2 +1,8 @@
-# dlib-gpu-cuda7.5-alpine
-alpine dlib gpu
+# Introduce
+- Image base on alpine 3.9
+- Anaconda3
+- Packages: opencv scikit-learn matplotlib scipy pillow pandas dlib  face_recognition_models dlib
+- Support GPU
+
+# Build
+docker build -t "tag_name" .
